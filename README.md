@@ -12,4 +12,4 @@ Timing Functions:	The playRound method utilizes setTimeout to introduce a delay 
 
 Local Storage:	The updateScoreboard method saves the player and computer scores to the browser's local storage, allowing the game to maintain state between sessions. The loadScores method retrieves these values when the game is initialized, so returning players can pick up where they left off.
 
-Form Fields and Validation:	This feature is not implemented in the provided code. To meet this requirement, you can add an HTML form with a text input for the player's name and a button to start the game. In the Game class, you would need methods to handle form submission, validate the input, and store the player's name.
+Form Fields and Validation: Integrated at the beginning of the game for player name input.
