@@ -10,6 +10,6 @@ Class Structure:	The JavaScript code defines a Game class that handles all the g
 
 Timing Functions:	The playRound method utilizes setTimeout to introduce a delay between the player's choice and the computer's response, simulating the computer "thinking" before it reveals its choice. This delay is also used before executing the gameOver method to allow for the last move to be displayed before showing the game over screen.
 
-Local Storage:	The updateScoreboard method saves the player and computer scores to the browser's local storage, allowing the game to maintain state between sessions. The loadScores method retrieves these values when the game is initialized, so returning players can pick up where they left off.
+Local Storage:	The updateScoreboard method saves the player and computer scores to the browser's local storage, allowing the game to maintain state between sessions.
 
 Form Fields and Validation: Integrated at the beginning of the game for player name input.
