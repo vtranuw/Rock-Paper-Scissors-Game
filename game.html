@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="player-setup">
         <h2>Player Name:</h2>
         <form id="start-form">
             <input type="text" id="player-name" placeholder="Enter your name here" required />
-            <button type="submit">Start Game</button>
+            <button type="submit" class="start">Start Game</button>
         </form>
     </div>
     <div id="game">
@@ -30,10 +32,12 @@
             <button class="choice paper">Paper</button>
             <button class="choice scissor">Scissors</button>
         </div>
-        <div class="result"><h2></h2></div>
-        <button class="reload" style="display: none;">Restart</button>
+        <div class="result">
+            <h2></h2>
+        </div>
         <button class="reset" style="display: none;">Reset</button>
     </div>
     <script src="game.js"></script>
 </body>
+
 </html>
