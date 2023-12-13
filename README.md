@@ -1,5 +1,5 @@
 Rock-Paper-Scissors-Game
-Final Project of JSCRIPT 310B Rock Paper Scissor Game
+Final Project of JSCRIPT 310B
 
 The game.js script uses a class-based approach to create an interactive Rock-Paper-Scissors game. It incorporates form handling, DOM manipulation, event listening, and basic game logic to provide a complete game experience. The game state is maintained within the class, and the DOM is updated based on the game's progress. The use of localStorage allows the game to remember the player's name and the current scores even if the page is reloaded.
 
